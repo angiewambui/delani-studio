@@ -10,16 +10,15 @@
 body{
     font-size:x-large
 }
-.about-us{
+.aboutus{
     background-color: white;
     text-align: center;
 }
-.col-md-2 img{
-    max-width: 100px;
-    margin: 20px;
-    float: left;
-  width: 33.33%;
+.col-md-2 {
+    width: 200px;
   padding: 5px;
+  float: left;
+  margin: 5px;
 }
 #ol1,#ol2,#ol3,#ol4,#ol5,#ol6,#ol7,#ol8{
 width: 20%;
@@ -32,14 +31,49 @@ font-size: 35px;
     font-size: large;
     display: inline;
 }
-  #contactus{
-      text-align: center;
-      background-image: url(/home/slwala/Documents/angie-programming-projects/delani-studio/IP3-master/assets/backgrounds/s_image.jpg);
-  }
+#contactus{
+    background-image: url(/home/slwala/Documents/angie-programming-projects/delani-studio/IP3-master/assets/backgrounds/s_image.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
 #button{
     color:red;
-
 }
+#design {
+    display: none;
+  }
+  .design-showing {
+  display: none;
+  }
+  .clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  #development {
+    display: none;
+  }
+  .development-showing {
+  display: none;
+  }
+  .click {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  #product-management {
+    display: none;
+  }
+  .product-management-showing {
+  display: none;
+  }
+  .clic {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  .container {
+    text-align: center;
+    margin-top: 40px;
+  }
 #portfolio{
     text-align: center;
     background-color: white;
@@ -47,7 +81,7 @@ font-size: 35px;
 #social{
     text-align: center;
 }
-.mouseclick{
+#mouseclick{
     padding-top : 22px;
     margin-top: 10%;
     padding-bottom: 30px; 

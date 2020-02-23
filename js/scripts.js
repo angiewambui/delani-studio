@@ -1,17 +1,18 @@
-$(document).ready(function(){
-    $("#designimage").click(function(){
-      $("#designimage").slideDown('1500').hide('1000');
-      $("#design").show('1500');
+$(document).ready(function() {
+    $(".clickable").click(function() {
+      $(".design-showing").toggle();
+      $(".design-hidden").toggle();
+      $("#design").show();
     });
-    $("#development").click(function(){
-      $("#development").slideUp('1500');
-      $("#img-development").slideDown('1500');
+    $(".click").click(function() {
+      $(".development-showing").toggle();
+      $(".development-hidden").toggle();
+      $("#development").show();
     });
-  });
-  $(document).ready(function(){
-    $("#img-design").click(function(){
-      $("#img-design").slideDown('1500').hide('1000');
-      $("#design").show('1500');
+    $(".clic").click(function() {
+      $(".product-management-showing").toggle();
+      $(".product-management-hidden").toggle();
+      $("#product-management").show();
     });
   $(document).ready(function(){
     $("detailsform").submit(function(event){
@@ -27,3 +28,4 @@ $(document).ready(function(){
       }
     });
   });
+  
