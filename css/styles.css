@@ -1,0 +1,55 @@
+.landingpage{
+    text-align: center;
+    background-image: url(/home/slwala/Documents/angie-programming-projects/delani-studio/IP3-master/assets/backgrounds/h_img.jpg);  
+}
+.services{
+    background-image: url(/home/slwala/Documents/angie-programming-projects/delani-studio/IP3-master/assets/backgrounds/s_image.jpg);
+    text-align: center;
+    color:black;
+}
+body{
+    font-size:x-large
+}
+.about-us{
+    background-color: white;
+    text-align: center;
+}
+.col-md-2 img{
+    max-width: 100px;
+    margin: 20px;
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+#ol1,#ol2,#ol3,#ol4,#ol5,#ol6,#ol7,#ol8{
+width: 20%;
+height: 20%;
+color: black;
+position: absolute;
+font-size: 35px;
+}
+#portfolio{
+    font-size: large;
+    display: inline;
+}
+  #contactus{
+      text-align: center;
+      background-image: url(/home/slwala/Documents/angie-programming-projects/delani-studio/IP3-master/assets/backgrounds/s_image.jpg);
+  }
+#button{
+    color:red;
+
+}
+#portfolio{
+    text-align: center;
+    background-color: white;
+}
+#social{
+    text-align: center;
+}
+.mouseclick{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    animation: bounce 2s infinite;
+  }
